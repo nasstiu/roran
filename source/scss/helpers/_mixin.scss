@@ -1,0 +1,26 @@
+// Container Mixin
+@mixin grid($width: $container) {
+  $container: $width;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  flex: 0 1 auto;
+  max-width: $container;
+  margin: 0 auto;
+
+}
+
+// Column Mixin
+@mixin column($span: $columns) {
+  $columns: $span;
+  box-sizing: border-box;
+  flex-basis: $columns;
+  padding-right: $gutter;
+  padding-left: $gutter;
+}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue ) + px;
+  font-size: ($sizeValue / 10) + rem;
+}
+

@@ -1,0 +1,181 @@
+@media screen and(max-width:960px){
+  .container{
+    width:100%;
+  }
+  html{
+    font-size:8px;
+  }
+  .members__media{
+    height:200px;
+  }
+  .members__img{
+    height:100%;
+    object-fit:cover;
+  }
+  .gallery__item-img{
+    object-fit:cover;
+  }
+  .slick-arrow{
+    display:none!important;
+  }
+  .gallery__item{
+    width:$four;
+  }
+  .header__socials{
+    margin:0 20px 0 auto;
+  }
+  .header__sandwich{
+    display:block;
+  }
+  .header__menu-list{
+    flex-direction:column;
+  }
+  .mm-panel.mm-hasnavbar .mm-navbar{
+    display:none;
+  }
+  .mm-listview > li:not(.mm-divider):after{
+    border-color:$accent;
+  }
+  .header__menu:not( .mm-menu ) {
+    display: none;
+  }
+  .hero{
+    height: 500px;
+    min-height: 500px;
+  }
+}
+
+@media screen and(max-width:768px){
+  .work__item{
+    width: 50%;
+    padding:0 20px;
+  }
+  .testimonials__elem:before{
+    left:0;
+    margin:0;
+  }
+  .testimonials__elem:after{
+    right:0;
+    margin:0;
+  }
+
+  .hero__left{
+    width:60%;
+  }
+  .hero__badge{
+    width:35%;
+  }
+}
+@media screen and(max-width:640px){
+  .deed__items{
+    flex-wrap:wrap;
+  }
+  .deed__item{
+    justify-content:center;
+    width:50%;
+    margin-bottom:25px;
+  }
+  .features__item {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .testimonials__elem:before, .testimonials__elem:after{
+    display:none;
+  }
+  .members__media{
+    height:auto;
+  }
+  .gallery__item{
+    width:50%;
+  }
+  .form-block{
+    top:0;
+  }
+  .copyrights{
+    position:static;
+  }
+}
+
+@media screen and(max-width:640px){
+  .hero__left{
+    width:100%;
+  }
+  .hero__badge{
+    display:none;
+  }
+  .work__item {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .gallery__item{
+    width:100%;
+  }
+  .features{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .features__item{
+    margin-bottom:25px;
+    width:70%;
+  }
+  .gallery__filters-list{
+    flex-wrap:wrap;
+  }
+  .gallery__filters-el{
+    padding:10px;
+  }
+  .form-block__right, .form-block__left{
+    width:100%;
+  }
+  .form-block__left{
+    order: 1;
+  }
+  .form-block__right{
+    padding:0;
+    margin-bottom:30px;
+  }
+  .testimonials__elem{
+    width:100%;
+  }
+  .item-desc{
+    font-size:1.6rem;
+  }
+  .about{
+    padding-bottom:4.5rem;
+  }
+  .hero__heading-primary{
+    font-size:8rem;
+  }
+
+  .contacts__map{
+    height:300px;
+  }
+  .hero__heading{
+    display:inline-block;
+  }
+}
+
+@media screen and(max-width:375px){
+  .deed__item-icon{
+    width:100%;
+  }
+  .deed__item{
+    width:45%;
+  }
+  .deed__item-num{
+    font-size:4rem;
+  }
+  .about__desc{
+    width:100%;
+    max-width:100%;
+  }
+  .form-block__desc{
+    font-size:1.6rem;
+  }
+  .copyrights__license{
+    font-size:1.3rem;
+  }
+  .form-block{
+    padding:5rem 3rem 3rem;
+  }
+}

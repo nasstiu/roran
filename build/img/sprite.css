@@ -1,0 +1,222 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-LunarTemplates {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 242px;
+  height: 62px;
+}
+.icon-Mashable {
+  background-image: url(sprite.png);
+  background-position: -262px 0px;
+  width: 160px;
+  height: 30px;
+}
+.icon-VHDesign {
+  background-image: url(sprite.png);
+  background-position: 0px -156px;
+  width: 187px;
+  height: 41px;
+}
+.icon-arrow-down {
+  background-image: url(sprite.png);
+  background-position: -442px -240px;
+  width: 32px;
+  height: 22px;
+}
+.icon-arrow-left {
+  background-image: url(sprite.png);
+  background-position: -442px -282px;
+  width: 17px;
+  height: 25px;
+}
+.icon-arrow-right {
+  background-image: url(sprite.png);
+  background-position: -442px -327px;
+  width: 17px;
+  height: 25px;
+}
+.icon-arrow-top {
+  background-image: url(sprite.png);
+  background-position: -207px -156px;
+  width: 23px;
+  height: 16px;
+}
+.icon-bbg {
+  background-image: url(sprite.png);
+  background-position: -133px -293px;
+  width: 46px;
+  height: 60px;
+}
+.icon-coctail {
+  background-image: url(sprite.png);
+  background-position: 0px -217px;
+  width: 60px;
+  height: 56px;
+}
+.icon-coffee {
+  background-image: url(sprite.png);
+  background-position: -199px -293px;
+  width: 44px;
+  height: 60px;
+}
+.icon-cup {
+  background-image: url(sprite.png);
+  background-position: 0px -293px;
+  width: 47px;
+  height: 60px;
+}
+.icon-facebook-dark {
+  background-image: url(sprite.png);
+  background-position: -29px -438px;
+  width: 9px;
+  height: 15px;
+}
+.icon-facebook-light {
+  background-image: url(sprite.png);
+  background-position: 0px -438px;
+  width: 9px;
+  height: 15px;
+}
+.icon-jQuery {
+  background-image: url(sprite.png);
+  background-position: 0px -82px;
+  width: 221px;
+  height: 54px;
+}
+.icon-laptop {
+  background-image: url(sprite.png);
+  background-position: -343px -130px;
+  width: 60px;
+  height: 56px;
+}
+.icon-link {
+  background-image: url(sprite.png);
+  background-position: 0px -373px;
+  width: 47px;
+  height: 45px;
+}
+.icon-linkedIn-dark {
+  background-image: url(sprite.png);
+  background-position: -67px -373px;
+  width: 14px;
+  height: 13px;
+}
+.icon-linkedIn-light {
+  background-image: url(sprite.png);
+  background-position: -375px -293px;
+  width: 14px;
+  height: 13px;
+}
+.icon-location {
+  background-image: url(sprite.png);
+  background-position: -442px 0px;
+  width: 42px;
+  height: 60px;
+}
+.icon-magic {
+  background-image: url(sprite.png);
+  background-position: -160px -217px;
+  width: 54px;
+  height: 54px;
+}
+.icon-monitor {
+  background-image: url(sprite.png);
+  background-position: -80px -217px;
+  width: 60px;
+  height: 54px;
+}
+.icon-monitors {
+  background-image: url(sprite.png);
+  background-position: -262px -50px;
+  width: 60px;
+  height: 60px;
+}
+.icon-palette {
+  background-image: url(sprite.png);
+  background-position: -262px -130px;
+  width: 61px;
+  height: 56px;
+}
+.icon-pen {
+  background-image: url(sprite.png);
+  background-position: -442px -80px;
+  width: 40px;
+  height: 60px;
+}
+.icon-phone {
+  background-image: url(sprite.png);
+  background-position: -442px -160px;
+  width: 36px;
+  height: 60px;
+}
+.icon-pinterest-dark {
+  background-image: url(sprite.png);
+  background-position: -393px -217px;
+  width: 13px;
+  height: 17px;
+}
+.icon-pinterest-light {
+  background-image: url(sprite.png);
+  background-position: -342px -293px;
+  width: 13px;
+  height: 17px;
+}
+.icon-quotes-close {
+  background-image: url(sprite.png);
+  background-position: -263px -293px;
+  width: 59px;
+  height: 44px;
+}
+.icon-quotes-open {
+  background-image: url(sprite.png);
+  background-position: -314px -217px;
+  width: 59px;
+  height: 44px;
+}
+.icon-smile {
+  background-image: url(sprite.png);
+  background-position: -342px -50px;
+  width: 60px;
+  height: 60px;
+}
+.icon-tablet {
+  background-image: url(sprite.png);
+  background-position: -67px -293px;
+  width: 46px;
+  height: 60px;
+}
+.icon-twitter-dark {
+  background-image: url(sprite.png);
+  background-position: -101px -373px;
+  width: 15px;
+  height: 12px;
+}
+.icon-twitter-light {
+  background-image: url(sprite.png);
+  background-position: -136px -373px;
+  width: 15px;
+  height: 12px;
+}
+.icon-window {
+  background-image: url(sprite.png);
+  background-position: -234px -217px;
+  width: 60px;
+  height: 46px;
+}
